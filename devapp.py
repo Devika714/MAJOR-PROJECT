@@ -55,7 +55,7 @@ def main(bot,update):
      bot.message.reply_text('INVALID INPUT!!!')   
 
 
-BOT_TOKEN = '1823812773:AAF5an5yteyVNHeA9ogTUNHMdsCwXRAD4Xs'
+BOT_TOKEN = '1852094923:AAF7bx4IcxBH_zcdyusFruJRD9S-QxdwAx0'
 u = Updater(BOT_TOKEN,use_context=True)
 dp = u.dispatcher
 dp.add_handler(MessageHandler(Filters.text,main))
