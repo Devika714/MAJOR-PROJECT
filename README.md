@@ -1,5 +1,3 @@
-# MAJOR-PROJECT
-major projects for robotics
 import os
 api = os.getenv('ADAFRUIT_IO_KEY')
 from Adafruit_IO import Client
