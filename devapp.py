@@ -15,7 +15,7 @@ def lighton(bot,update):
 
 def fanon(bot,update):
   chat_id= bot.message.chat_id
-  path='https://png.pngtree.com/png-clipart/20190614/original/pngtree-fan-cartoon-fan-midsummer-summer-png-image_3784724.jpg'
+  path='https://clipartstation.com/wp-content/uploads/2018/09/cold-wind-clipart-5.jpg'
   aio.send('fan', 1)
   data = aio.receive('fan')
   print(f'Received value: {data.value}')
