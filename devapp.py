@@ -27,7 +27,7 @@ def lightoff(bot,update):
   aio.send('bedroom-light', 0)
   data = aio.receive('bedroom-light')
   print(f'Received value: {data.value}')
-  path='https://www.istockphoto.com/vector/turn-off-lighting-fixtures-gm1216060058-354448794'
+  path='https://n2.sdlcdn.com/imgs/h/l/v/Philips-7W-LED-Bulbs-Cool-SDL620520797-2-3d825.jpeg'
   bot.message.reply_text('I have turned off the light!!!')  
   update.bot.sendPhoto(chat_id=chat_id,photo=path)
 
