@@ -14,7 +14,7 @@ from telegram.ext import Updater, MessageHandler,Filters
 
 def lighton(bot,update):
   chat_id= bot.message.chat_id
-  path='https://images.squarespace-cdn.com/content/5784e04246c3c41c72bf6305/1468526448115-KB10QTHCWSJ3IHHK7HVP/640px-Bombeta_de_Llum.jpg?content-type=image%2Fjpeg'
+  path='https://thumbs.dreamstime.com/b/cartoon-light-bulb-illustration-got-ideas-60593991.jpg'
   aio.send('bedroom-light', 1)
   data = aio.receive('bedroom-light')
   print(f'Received value: {data.value}')
